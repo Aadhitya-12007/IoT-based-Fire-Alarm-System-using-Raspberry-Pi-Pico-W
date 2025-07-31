@@ -40,7 +40,7 @@ def noTone():
     buzzer.duty_u16(0)
     
 def send(message):
-    s= "your telegram bot link here&text={}".format(message) #enter your telegram bot api link here after generating using botfather
+    s= "your telegram bot's link here&text={}".format(message) #enter your telegram bot api link here after generating using botfather
     so = urequests.get(s)
 send("HEY")
 
