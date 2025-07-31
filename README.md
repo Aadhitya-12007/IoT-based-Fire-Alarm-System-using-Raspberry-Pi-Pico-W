@@ -3,6 +3,8 @@ Combining temperature, gas and smoke sensors with Pico W’s connectivity overco
 End-to-end automation (detection → computation → communication) accelerates emergency response and reduces human error.​  
 The low-cost, modular design can be adapted for fire monitoring.
 
+Requirements: Raspberry Pi Pico W microcontroller board, 4x Analogue fire sensors, 1x NEO-6M GPS Module, 1x DHT-11 Temperature sensor and Telegram app installed.
+
 Connect DHT11/22 for temperature/humidity, MQ2 for combustible gases, and
 four smoke sensors positioned for 360° coverage; include LEDs for power &
 network status.​
